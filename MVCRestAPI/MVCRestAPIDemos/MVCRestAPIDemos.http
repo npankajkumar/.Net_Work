@@ -1,0 +1,6 @@
+@MVCRestAPIDemos_HostAddress = http://localhost:5263
+
+GET {{MVCRestAPIDemos_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
