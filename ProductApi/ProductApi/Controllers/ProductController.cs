@@ -10,7 +10,11 @@ namespace ProductApi.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        private readonly ProductService _productService=new ProductService();
+        private readonly IProductService _productService;
+        private ProductController(IProductService obj) {
+            _productService = obj;
+        }
+
         // GET: api/<ProductController>
         [HttpGet]
         public IEnumerable<Product> Get()

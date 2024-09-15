@@ -5,7 +5,9 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductApi", "ProductApi\ProductApi.csproj", "{E6706D1E-FDA1-4F22-8E95-BEF5024AC435}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WheelFactory", "WheelFactory\WheelFactory.csproj", "{CBD7E21B-DB27-4A54-BA8B-9BDD950EDDED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WheelFactory", "WheelFactory\WheelFactory.csproj", "{CBD7E21B-DB27-4A54-BA8B-9BDD950EDDED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductApiTest", "ProductApiTest\ProductApiTest.csproj", "{5C103E15-51B6-42B0-9ABD-1A765755C3D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CBD7E21B-DB27-4A54-BA8B-9BDD950EDDED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBD7E21B-DB27-4A54-BA8B-9BDD950EDDED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBD7E21B-DB27-4A54-BA8B-9BDD950EDDED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C103E15-51B6-42B0-9ABD-1A765755C3D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C103E15-51B6-42B0-9ABD-1A765755C3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C103E15-51B6-42B0-9ABD-1A765755C3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C103E15-51B6-42B0-9ABD-1A765755C3D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

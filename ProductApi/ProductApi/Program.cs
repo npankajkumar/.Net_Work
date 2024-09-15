@@ -1,3 +1,5 @@
+using ProductApi.Services;
+
 namespace ProductApi
 {
     public class Program
@@ -9,6 +11,8 @@ namespace ProductApi
             // Add services to the container.
 
             builder.Services.AddControllers();
+
+            builder.Services.AddScoped<IProductService, ProductService>();
 
             var app = builder.Build();
 
